@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        .fsize{
+            font-size: 0.8rem;
+        }
+        .tealFont{
+            color: teal
+        }
+        .tealBg{
+            background-color: teal;
+        }
+        .bigFont{
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid flex-column bg-light">
+        <div class="d-flex mb-2">
+            <header class="card col-4 flex-column me-2">
+                <img src="1.jpg" class="card-img-top card-img" alt="">
+                <div class="card-img-overlay position-relative">
+                    <p class="card-title h2 p-2 mb-4 position-absolute bottom-0 start-0">Jane Doe</p>
+                </div>
+                <div class="card-body p-2">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex">
+                                <i class="fas fa-home tealFont me-3"></i>
+                                <p class="fsize">Designer</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-briefcase tealFont me-3"></i>
+                                <p class="fsize">London, UK</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-envelope tealFont me-3"></i>
+                                <p class="fsize">ex@email.com</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-phone-alt tealFont me-3"></i>
+                                <p class="fsize">1224435534</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex my-3">
+                                <i class="fas fa-star-of-life tealFont p-2 me-3"></i>
+                                <p class="bigFont">Skills</p>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">Adobe Photoshop</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">Photography</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">Illustrator</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">Media</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                </div>
+                            </div>
+                            <div class="d-flex pt-3">
+                                <i class="fas fa-globe-americas  tealFont p-2 me-3"></i>
+                                <p class="bigFont">Language</p>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">English</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">Spanish</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="fsize mb-2">German</div>
+                                <div class="progress">
+                                    <div class="progress-bar tealBg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main class="col-8 bg-light">
+                <div class="card p-2 mb-2">
+                    <div class="card-body">
+                        <div class="d-flex pt-3 bigFont card-title">
+                            <i class="fas fa-suitcase tealFont p-2 me-3"></i>
+                            <p >Work Experience</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">Front End Developer / w3schools.com</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>Jan 2015 -<span class="badge ms-1 tealBg">Current</span></p>
+                                </div>
+                                <p class="card-text fsize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus veniam veritatis repellat voluptate unde corporis magni quas quis, ipsa nihil recusandae odit, fugiat aperiam optio architecto animi repellendus earum esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti a itaque expedita eligendi consequatur, officiis aperiam est quod, exercitationem sit animi nam velit unde quaerat minus odit rem libero?</p>
+                            </li>
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">Web Developer / something.com</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>Mar 2012 - Dec 2014</p>
+                                </div>
+                                <p class="card-text fsize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus veniam veritatis repellat voluptate unde corporis magni quas quis, ipsa nihil recusandae odit, fugiat aperiam optio architecto animi repellendus earum esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, reprehenderit. Eveniet nesciunt debitis hic exercitationem quos rerum rem reprehenderit perferendis provident facilis velit voluptate omnis laudantium dicta cupiditate, culpa ea.</p>
+                            </li>
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">Graphic Designer / design something.com</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>Jun 2010 - Mar 2012</p>
+                                </div>
+                                <p class="card-text fsize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod doloribus nulla fugiat consectetur quo veritatis pariatur, quidem sed est minus. Voluptatum perspiciatis accusamus aliquid deleniti autem error illum expedita?</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex pt-3 bigFont card-title">
+                            <i class="fas fa-certificate tealFont p-2 me-3"></i>
+                            <p>Education</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">W3schools.com</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>Forever</p>
+                                </div>
+                                <p class="card-text fsize">Web development! All I need to know in one place!</p>
+                            </li>
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">London Business School</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>2013 - 2015</p>
+                                </div>
+                                <p class="card-text fsize">Master Degree</p>
+                            </li>
+                            <li class="list-group-item mb-4">
+                                <p class="card-title">School of Coding</p>
+                                <div class="d-flex card-text fsize tealFont">
+                                    <i class="far fa-calendar-alt  p-1 me-3"></i>
+                                    <p>2010 - 2013</p>
+                                </div>
+                                <p class="card-text fsize">Bacholar Degree</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="row tealBg fsize text-light text-center flex-column">
+            <div class="col-12 mb-2">Find me on social media</div>
+            <div class="col-12 mb-2">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="col-12">Powered by w3.css</div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        .imgFormat{
+            width: 10%;
+        }
+        .white{
+            color: white;
+        }
+        .imgPost{
+            width: 48%;
+        }
+        .isize{
+            font-size: 2rem;
+        }
+        .fsize{
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand"  aria-disabled="false" href="#">
+                    <i class="fas fa-home white"></i>
+                    Logo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navElems">
+                    <i class="fas fa-ellipsis-v white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navElems">
+                    <a class="nav-link"  aria-disabled="false" href="#">
+                        <i class="fas fa-globe-europe white"></i>
+                    </a>
+                    <a class="nav-link"  aria-disabled="false" href="#">
+                        <i class="fas fa-user white"></i>
+                    </a>
+                    <a class="nav-link"  aria-disabled="false" href="#">
+                        <i class="fas fa-envelope white"></i>
+                    </a>
+                    <a class="nav-link"  aria-disabled="false" href="#">
+                        <i class="fas fa-bell white"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <main class="row">
+            <div class="col-lg-3 col-md-2 col-2 g-4">
+                <div class="card shadow mb-4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">My Profile</h5>
+                    </div>
+                    <img class="card-img-top w-50 rounded-circle align-self-center mb-2" src="avatar.png" alt="">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item mt-2">
+                            <div class="d-flex">
+                                <i class="fas fa-pen me-3"></i>
+                                <p class="fsize">Designer, UI</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-home me-3"></i>
+                                <p class="fsize">London, UK</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-birthday-cake me-3"></i>
+                                <p class="fsize">April 1, 1998</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav shadow flex-column mb-4 p-4 bg-secondary">
+                    <a class="nav-link p-2 text-light" href="#">
+                        <i class="fas fa-circle-notch me-4"></i>
+                        My Groups
+                    </a>
+                    <a class="nav-link p-2 text-light" href="#">
+                        <i class="far fa-calendar-check me-4"></i>
+                        My Events
+                    </a>
+                    <a class="nav-link p-2 text-light" href="#">
+                        <i class="fas fa-users me-4"></i>
+                        My Photos
+                    </a>
+                </div>
+                <div class="card shadow mb-4 p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Interests</h5>
+                    </div>
+                    <div class="card-body d-flex flex-wrap">
+                        <div class="card-text small bg-dark p-1 m-1 text-light">News</div>
+                        <div class="card-text small bg-dark p-1  m-1 text-light">W3School</div>
+                        <div class="card-text small bg-dark p-1  m-1 text-light">Labels</div>
+                        <div class="card-text small bg-dark p-1  m-1 text-light">Games</div>
+                        <div class="card-text small bg-secondary p-1 m-1 text-light">Friends</div>
+                        <div class="card-text small bg-secondary p-1 m-1 text-light">Games</div>
+                        <div class="card-text small bg-secondary p-1 m-1 text-light">Friends</div>
+                        <div class="card-text small bg-secondary p-1 m-1 text-light">Food</div>
+                        <div class="card-text small bg-light p-1 m-1">Design</div>
+                        <div class="card-text small bg-light p-1 m-1">Art</div>
+                        <div class="card-text small bg-light p-1 m-1">Photos</div>
+                      </div>
+                </div>
+                <div class="card border bg-light p-4">
+                    <div class="card-body d-flex">
+                        <h5 class="card-title flex-grow-1">Hey!</h5>
+                        <button class="btn-close" type="button" aria-label="Close"></button>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">People are looking at your profile. Find out who.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-8 g-4">
+                <div class="card mb-4 shadow">
+                    <div class="card-body">
+                        <p class="card-text small text-secondary mb-3">Social Media template by w3.css</p>
+                        <input type="text" class=" w-100 mb-3" placeholder="Status: Feeling Blue">
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-pen me-2"></i>
+                            Post
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4 p-4 shadow">
+                    <div class="card-header d-flex">
+                        <img class="rounded-circle mb-2 imgFormat" src="img1.png" alt="">
+                        <h5 class="flex-grow-1 py-4 px-2">John Doe</h5>
+                        <p class="text-secondary">3 min</p>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde, ab laborum quo ullam corporis. Ex non, nisi officia illum molestias temporibus perspiciatis, totam beatae mollitia assumenda praesentium cumque aliquid?</p>
+                        <img class="imgPost me-2" src="4.jpg" alt="">
+                        <img class="imgPost" src="2.jpg" alt="">
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </a>
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="card mb-4 p-4 shadow">
+                    <div class="card-header d-flex">
+                        <img class="rounded-circle mb-2 imgFormat" src="img2.png" alt="">
+                        <h5 class="flex-grow-1 py-4 px-2">John Doe</h5>
+                        <p class="text-secondary">16 min</p>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde, ab laborum quo ullam corporis. Ex non, nisi officia illum molestias temporibus perspiciatis, totam beatae mollitia assumenda praesentium cumque aliquid?</p>
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </a>
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="card mb-4 p-4 shadow">
+                    <div class="card-header d-flex">
+                        <img class="rounded-circle mb-2 imgFormat" src="img3.png" alt="">
+                        <h5 class="flex-grow-1 py-4 px-2">Jane Doe</h5>
+                        <p class="text-secondary">32 min</p>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde, ab laborum quo ullam corporis. Ex non, nisi officia illum molestias temporibus perspiciatis, totam beatae mollitia assumenda praesentium cumque aliquid?</p>
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </a>
+                        <a href="#" class="btn btn-secondary mt-2">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-2 g-4">
+                <div class="card mb-4 p-3 shadow d-flex flex-column align-items-center text-center">
+                    <div class="card-body">
+                        <p class="card-text">Upcoming Events:</p>
+                    </div>
+                    <img src="2.jpg" class="my-3 w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Holiday</h5>
+                        <p class="card-text pt-2">Friday 15:00</p>
+                    </div>
+                    <button type="button" class="btn btn-light mt-2 w-100">Info</button>
+                </div>
+                <div class="card mb-4 p-4 shadow d-flex flex-column align-items-center text-center">
+                    <div class="card-body">
+                        <p class="card-title">Friend Request</p>
+                        <img src="img4.jpg" class="w-100 mt-2" alt="">
+                        <p class="card-text">Jane Doe</p>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="col-6 bg-success p-1"><i class="fas fa-check text-light"></i></div>
+                        <div class="col-6 bg-danger p-1"><i class="fas fa-times text-light"></i></div>
+                    </div>
+                    
+                </div>
+                <div class="card mb-4 p-4 shadow text-center">
+                    <div class="card-body">
+                        <p class="card-title">ADS</p>
+                    </div>
+                </div>
+                <div class="card p-4 shadow text-center">
+                    <div class="card-body">
+                        <i class="fas fa-bug isize"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="row mt-4">
+            <div class="col-12 bg-secondary p-3 white gx-4">Footer</div>
+            <div class="col-12 bg-dark p-1 fsize white gx-4">Powered by w3.css</div>
+        </footer>
+    </div>
+</body>
+</html>

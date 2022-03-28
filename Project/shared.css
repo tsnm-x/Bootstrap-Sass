@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Neoneon";
+  src:url("Neoneon.otf");
+}
+.fstyle{
+  font-family: 'Neoneon', sans-serif;
+}
+.navFstyle{
+  font-family: 'Harmattan', sans-serif;
+}
+.intro{
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+.allFstyle{
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+.rotate{
+  transform: rotate(-90deg);
+}
+.border-style{
+  height: 30%;
+  border-left: 1px dashed beige;
+}
+.translate1{
+  left: 50%;
+  top: -6vh;
+}
+.translate2{
+  left: 45%;
+  top: -5vh;
+}
+.move{
+  animation-duration: 30s;
+  animation-name: animation1 ;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes animation1 {
+  from {
+    transform: rotateZ(200deg);
+  }
+
+  to {
+    transform: rotateZ(560deg);
+  }
+}
+.whiteDiv{
+  background-color: beige;
+  border: 1px solid black;
+}
+.w-15{
+  width: 15%;
+}
+.z-index{
+  z-index: 9999;
+}
+.bigFont{
+  font-size: 2rem;
+}
+.subFont{
+  font-size: 1.25rem;
+}
+.smolFont{
+  font-size: 0.75rem;
+}
+.w-10{
+  width: 10%;
+}
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.h-20{
+  height: 20%
+}
+.border-link{
+  text-decoration: none;
+  border-bottom: 1px dashed gray;
+}
+.dashed{
+  border-bottom: 1px dashed;
+}
+.margin-bottom{
+  margin-bottom: 10rem;
+}
+.list-style-disc{
+  list-style-type:disc;
+}
+.textarea-size{
+  height: 10vh;
+}
+#mailSub:focus{
+  color: white;
+}
+.handCursor{
+  cursor: pointer;
+}
+@media screen and (min-width: 992px){
+  .translate8{
+    transform: translateY(-15%);
+  }
+  .translate9{
+    transform:translateX(6%);
+  }
+  .position-sticky{
+    position: sticky !important;
+    top: 13%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .translate3{
+    transform: translate(-10%,12%);
+  }
+  .translate4{
+    transform: translateX(5%);
+  }
+  .translate5{
+    transform: translateY(20%);
+  }
+  .translate6{
+    transform: translateY(150%);
+  }
+}

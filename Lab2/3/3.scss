@@ -1,0 +1,21 @@
+$padding: 1.5%;
+@for $i from 0 through 10{
+    #div#{$i}{
+        padding: $padding;
+    }
+}
+.colorText{
+    color: white;
+}
+nav,main,footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#div1{
+    font-size: 2.5rem;
+}
+.icons{
+    font-size: 15rem;
+}
+#div10{
+    font-size: 0.7rem;
+}
